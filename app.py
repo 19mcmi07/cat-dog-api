@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'My pytorch model got deleted, so deployment will be delayed.'
 
 if __name__ == '__main__':
     app.run()
